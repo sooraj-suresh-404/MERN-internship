@@ -1,0 +1,39 @@
+.registration-form {
+    width: 500px;
+    margin: auto;
+    background-color: #fff;
+}
+
+h3 {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input, select, textarea {
+    width: 300px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+}
+
+button {
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #e7e7e7;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
